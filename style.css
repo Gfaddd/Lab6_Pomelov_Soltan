@@ -1,170 +1,245 @@
 body {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #2aa9f8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2a8af8;
 }
 
 .breadcrumbs {
-    background: white;
-    padding: 15px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .breadcrumbs a {
-    color: #024dbeca;
-    text-decoration: none;
-    margin: 0 5px;
-    font-weight: bold;
+  color: #106cc2ca;
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: bold;
 }
 
 .breadcrumbs a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .breadcrumbs span {
-    color:#0502beca;
-    font-weight: bold;
-    margin: 0 5px;
+  color: #be6902ca;
+  font-weight: bold;
+  margin: 0 5px;
 }
 
 .search-box {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid rgb(163, 46, 0);
-    border-radius: 5px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid rgb(163, 46, 0);
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 .list {
-    background: #028de3;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #3553d8;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .item {
-    border: 3px solid #48049b;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 5px;
-    background: #015efe;
+  border: 3px solid #9b4b04;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  background: #2965e6;
 }
 
 .item h3 {
-    margin: 0 0 10px 0;
-    color: #ffffff;
+  margin: 0 0 10px 0;
+  color: #ffffff;
 }
 
 .item p {
-    margin: 5px 0;
-    color: #ffffff;
+  margin: 5px 0;
+  color: #ffffff;
 }
 
 .delete-btn {
-    background: #dc3545;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: 10px;
-    transition: all 0.3s ease;
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 10px;
+  transition: all 0.3s ease;
 }
 
 .delete-btn:hover {
-    background: #c82333;
+  transform: scale(1.05);
+  background: #c82333;
 }
 
 .add-form {
-    background: #49e7ff;
-    border: 3px solid rgb(163, 46, 0);
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #250daf;
+  border: 3px solid rgb(163, 46, 0);
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .add-form input {
-    display: block;
-    margin: 10px 0;
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    box-sizing: border-box;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
 .add-form button {
-    background: #0478d7;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    display: inline-block;
+  background: #072b8f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .add-form button:hover {
-    transform: scale(1.05);
-    background: #0e87e4;
+  transform: scale(1.05);
+  background: #0a41a8;
 }
 
 .error-message {
-    color: red;
-    font-size: 14px;
-    margin: 10px 0;
+  color: red;
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 h1 {
-    color: #ffffff;
-    border-bottom: 2px solid #c25100;
-    padding-bottom: 10px;
+  color: #ffffff;
+  border-bottom: 2px solid #c25100;
+  padding-bottom: 10px;
 }
 
 .navigation {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .navigation a {
-    color: #030041;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: all 0.3s ease;
-    display: inline-block;
+  color: #412d00;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 
 .navigation a:hover {
-    transform: scale(1.20);
-    color: #412d00;
+  transform: scale(1.2);
+  color: #412d00;
 }
 
 .count-info {
-    font-weight: bold;
-    margin: 10px 0;
-    color: #3d0099;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #994000;
 }
 
-.action-btn{
-    background: #5200be;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+.action-btn {
+  background: #be5300;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.action-btn:hover{
-    transform: scale(1.05);
-    background: #5d3ef5;
+.action-btn:hover {
+  transform: scale(1.05);
+  background: #0c62c4;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+}
+
+.modal-form {
+  margin: 0;
+  border-radius: 8px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 15px 0;
+  padding: 5px 0;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkbox-container label {
+  margin: 0;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
 }
